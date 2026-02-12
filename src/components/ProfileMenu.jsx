@@ -51,7 +51,7 @@ export default function ProfileMenu() {
         <>
           <IconButton onClick={handleClick} size="small">
             <Avatar
-              src={"imagen-perfil.png"}
+              src={`${import.meta.env.BASE_URL}imagen-perfil.png`}
               alt={"User"}
               sx={{ width: 30, height: 30 }}
             />
@@ -114,3 +114,4 @@ export default function ProfileMenu() {
     </Box>
   );
 }
+

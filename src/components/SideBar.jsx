@@ -195,7 +195,7 @@ export default function SideBar({ open, handleDrawerClose }) {
             height: open ? "88px" : "40px",
           }}
           alt=".."
-          src="imagen-perfil.png"
+          src={`${import.meta.env.BASE_URL}imagen-perfil.png`}
         />
         {/*
 					Mostramos el nombre del usuario autenticado por CAS,
@@ -405,4 +405,5 @@ export default function SideBar({ open, handleDrawerClose }) {
     </Drawer>
   );
 }
+
 

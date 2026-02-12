@@ -8,6 +8,7 @@ import {
   Title,
   Tooltip,
   Legend,
+  Filler,
 } from "chart.js";
 import { Box, useTheme } from "@mui/material";
 import Header from "../../components/Header";
@@ -19,7 +20,8 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  Filler
 );
 
 export default function LineChart({ isDashboard = false }) {
@@ -180,3 +182,5 @@ export default function LineChart({ isDashboard = false }) {
     </Box>
   );
 }
+
+

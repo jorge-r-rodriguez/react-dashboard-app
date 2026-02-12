@@ -57,7 +57,7 @@ const demoSession = {
   user: {
     name: "Jorge Rodriguez",
     email: "Jorge@gmail.com",
-    image: "imagen-perfil.png",
+    image: `${import.meta.env.BASE_URL}imagen-perfil.png`,
   },
 };
 
@@ -296,3 +296,4 @@ export default function TopBar({ open, handleDrawerOpen, setMode }) {
     </AppBar>
   );
 }
+
