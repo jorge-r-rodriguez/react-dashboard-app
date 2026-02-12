@@ -2,7 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/dashboard/',
+  base: '/react-dashboard-app/',
   plugins: [react()],
 });
+
 

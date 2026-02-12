@@ -54,7 +54,7 @@ const router = createBrowserRouter(
     </>
   ),
   {
-    basename: "/dashboard", // Necesario para GitHub Pages
+    basename: "/react-dashboard-app", // Necesario para GitHub Pages
   }
 );
 
@@ -65,3 +65,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </CasUserProvider>
   </React.StrictMode>
 );
+
